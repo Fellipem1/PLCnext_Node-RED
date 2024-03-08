@@ -13,3 +13,5 @@ Prueba
 |Firmware      | 2023.0 LTS or higher |
 
 Since firmware 2023.0, Podman (https://podman.io/) has been installed on the PLCnext operating system. Podman fulfills the same function as Docker. This implementation guarantees a simpler Node-RED installation for the end user.
+
+Important: Due to the changes that PLCnext undergoes with each firmware update, these procedures may stop working in the future. If this is the case, this document will be updated.
