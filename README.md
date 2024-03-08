@@ -26,13 +26,15 @@ Since firmware 2023.0, Podman (https://podman.io/) has been installed on the PLC
 
 - You must access using ```Putty``` or your favorite ```SSH client``` using the IP of your PLC. Remember that the default IP is ```192.168.1.10```.
   
-  <p align="center">
-    
-  ![Access Putty](https://i.ibb.co/6s8Jt29/Putty.png)
-  
-  </p>
+<p align="center">
+  <img src="https://i.ibb.co/6s8Jt29/Putty.png">
+</p>
 
 - Log in with the username ```admin``` and the password of your PLCnext.
+  
+<p align="center">
+  <img src="https://i.ibb.co/VYDhXqL/Putty1.png">
+</p>
 
 ### 1.2. Accessing as root user:
 
@@ -41,6 +43,11 @@ Since firmware 2023.0, Podman (https://podman.io/) has been installed on the PLC
 su
 ```
 - If you haven't created a root password yet, create it with the command ```sudo passwd root```
+  
+<p align="center">
+  <img src="https://i.ibb.co/Smz00bh/Putty3.png">
+</p>
+  
 ```
 sudo passwd root
 ```
