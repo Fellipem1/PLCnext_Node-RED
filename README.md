@@ -4,9 +4,10 @@
 
 Since firmware 2023.0, Podman (https://podman.io/) has been installed on the PLCnext operating system. Podman fulfills the same function as Docker. This implementation guarantees a simpler Node-RED installation for the end user.
 
-**Important:** Due to the changes that PLCnext undergoes with each firmware update, these procedures may stop working in the future. If this is the case, this document will be updated.
+> [!IMPORTANT]
+> Due to the changes that PLCnext undergoes with each firmware update, these procedures may stop working in the future. If this is the case, this document will be updated.
 
-|Description   | Date      |
+|Description   | Date       |
 |--------------|------------|
 |Created       | 05-03-2024 |
 |Last modified | 08-03-2024 |
@@ -21,9 +22,15 @@ Since firmware 2023.0, Podman (https://podman.io/) has been installed on the PLC
 
 ## 1. Installation steps:
 
-### 1.1. Accessing via Putty:
+### 1.1. Accessing via SSH client:
 
-- Access your PLC using Putty and its IP address (by default, it is ```192.168.1.10```). Download Putty from https://www.putty.org/.
+- You must access using ```Putty``` or your favorite ```SSH client``` using the IP of your PLC. Remember that the default IP is ```192.168.1.10```.
+  
+  <p align="center">
+    
+  ![Access Putty](https://i.ibb.co/6s8Jt29/Putty.png)
+  
+  </p>
 
 - Log in with the username ```admin``` and the password of your PLCnext.
 
