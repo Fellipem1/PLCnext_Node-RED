@@ -1,4 +1,4 @@
-# PLCnext_Node-RED
+# How to install Node-RED in PLCnext with Podman
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](MIT_LICENSE)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 ```
