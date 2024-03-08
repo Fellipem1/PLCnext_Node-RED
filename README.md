@@ -3,4 +3,11 @@
 ```
 Prueba
 ```
+## Project details
 
+|Description   | Value      |
+|--------------|------------|
+|Created       | 18.02.2020 |
+|Last modified | 19.11.2020 |
+|Controller    | AXC F 1152; AXC F 2152; AXC F 3152 |
+|Firmware      | 2021.0 LTS |
