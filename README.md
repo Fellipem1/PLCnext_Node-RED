@@ -7,7 +7,7 @@ Prueba
 
 |Description   | Value      |
 |--------------|------------|
-|Created       | 18.02.2020 |
-|Last modified | 19.11.2020 |
+|Created       | 05.03.2024 |
+|Last modified | 08.03.2024 |
 |Controller    | AXC F 1152; AXC F 2152; AXC F 3152 |
-|Firmware      | 2021.0 LTS |
+|Firmware      | 2024.0 LTS |
