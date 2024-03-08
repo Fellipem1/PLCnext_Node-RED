@@ -67,7 +67,41 @@ podman run -d -p 1880:1880 --name nodered --restart always docker.io/fellipem/no
 
 ### 1.4. Accessing Node-RED:
 
-Once you have finished, you can start using Node-RED by entering ```IP_PLC:1880``` in your web browser. For example, if your PLC's IP address is 192.168.1.10, you would enter ```192.168.1.10:1880```.
+- Once you have finished, you can start using Node-RED by entering ```IP_PLC:1880``` in your web browser. For example, if your PLC's IP address is 192.168.1.10, you would enter ```192.168.1.10:1880```.
 
 > [!WARNING]
 > Unlike Docker, Podman does not run as a service within PLCnext. Therefore, Node-RED will not start automatically when the PLC is turned on. To make Node-RED start with the PLC, follow these steps:
+
+## 2. Steps to start Node-RED automatically:
+
+### 2.1. Create a startup script:
+
+- Use the following command on your PLC to download this project:
+```
+git clone https://github.com/Fellipem1/PLCnext_Node-RED.git
+```
+### 2.2. Move the file:
+
+- Move the ```nodered.sh``` file to the ```/etc/init.d/``` path using the following command:
+```
+mv /opt/plcnext/PLCnext_Node-RED/nodered.sh /etc/init.d/
+```
+
+### 2.3. Change file permissions:
+
+- Run the following command to change the permissions of the ```nodered.sh``` file:
+```
+chmod +x /etc/init.d/nodered.sh
+```
+
+### 2.4. Add the script to startup:
+
+- The method for adding the script to startup varies depending on the Linux distribution you are using. In the case of PLCnext, you should use the following command:
+```
+update-rc.d nodered.sh defaults
+```
+
+- By following the steps above, Node-RED will be ready to start automatically every time you turn off or restart the PLCnext.
+
+> [!NOTE]
+> Remember to always perform these steps using the root user.
