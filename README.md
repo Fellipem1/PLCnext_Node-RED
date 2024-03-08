@@ -39,6 +39,11 @@ Since firmware 2023.0, Podman (https://podman.io/) has been installed on the PLC
 ### 1.2. Accessing as root user:
 
 - Once you are logged in to the PLCnext, you need to access as a root user using the command ```su```
+
+  <p align="center">
+  <img src="https://i.ibb.co/kc091hS/Putty2.png">
+</p>
+
 ```
 su
 ```
