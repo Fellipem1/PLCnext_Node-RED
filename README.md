@@ -9,6 +9,6 @@ Prueba
 |Description   | Value      |
 |--------------|------------|
 |Controller    | AXC F 1152 - AXC F 2152 - AXC F 3152 |
-|Firmware      | 2024.0 LTS or higher |
+|Storage       | SD memory 2GB or higher for AXC F 1152 / 2152 |
 |Firmware      | 2023.6 LTS or higher |
 
