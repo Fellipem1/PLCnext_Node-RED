@@ -10,5 +10,6 @@ Prueba
 |--------------|------------|
 |Controller    | AXC F 1152 - AXC F 2152 - AXC F 3152 |
 |Storage       | SD memory 2GB or higher for AXC F 1152 / 2152 |
-|Firmware      | 2023.6 LTS or higher |
+|Firmware      | 2023.0 LTS or higher |
 
+Since firmware 2023.0, Podman (https://podman.io/) has been installed on the PLCnext operating system. Podman fulfills the same function as Docker. This implementation guarantees a simpler Node-RED installation for the end user.
