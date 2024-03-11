@@ -159,5 +159,5 @@ date -s “29 FEB 2024 11:25:39”
 ```
 ping google.cl
 ```
-- If it says bad ```address```, you must verify the IP, mask, and Gateway configuration of the PLCnext. You can do this from the web server, Network section.
+- If it says ```bad address```, you must verify the IP, mask, and Gateway configuration of the PLCnext. You can do this from the web server, Network section.
   
