@@ -284,7 +284,7 @@ update-rc.d nodered.sh defaults
 
 ### 3.1. Iniciar Node-RED y acceder al contenedor:
 
-- Acceda como usuario root y escriba los siguientes comandos:
+- Acceda como usuario ```root``` y escriba los siguientes comandos:
   
 ```
 podman start nodered
@@ -332,5 +332,5 @@ date -s “29 FEB 2024 11:25:39”
 ```
 ping google.cl
 ```
-- Si dice ```bad address```, debe verificar la configuración de IP, máscara y Gateway del PLCnext. Puede hacerlo desde el servidor web, sección Network.
+- Si dice ```bad address```, debe verificar la configuración de IP, máscara y Gateway del PLCnext. Puedes hacerlo desde el servidor web, sección Network.
   
