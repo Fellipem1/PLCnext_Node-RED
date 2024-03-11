@@ -3,6 +3,8 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Fellipem1/PLCnext_Node-RED/tree/main#how-to-install-node-red-in-plcnext-with-podman)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/Fellipem1/PLCnext_Node-RED#como-instalar-node-red-en-plcnext-utilizando-podman)
 
+# English:
+
 # How to install Node-RED in PLCnext with Podman
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](MIT_LICENSE)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
@@ -162,10 +164,8 @@ date -s “29 FEB 2024 11:25:39”
 
 - This error occurs because the PLCnext does not have internet access. You can check this with the ```ping``` command, for example:
 
-# Multilenguage README
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Fellipem1/PLCnext_Node-RED/tree/main#how-to-install-node-red-in-plcnext-with-podman)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/Fellipem1/PLCnext_Node-RED#como-instalar-node-red-en-plcnext-utilizando-podman)
+# Español:
 
 # Como instalar Node-RED en PLCnext utilizando Podman
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](MIT_LICENSE)
