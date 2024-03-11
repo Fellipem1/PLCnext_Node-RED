@@ -175,7 +175,7 @@ ping google.cl
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](MIT_LICENSE)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
-Desde la versión de firmware 2023.0, Podman (https://podman.io/) viene instalado en el sistema operativo PLCnext. Podman cumple la misma función que Docker. Esta implementación garantiza una instalación de Node-RED más sencilla para el usuario final.
+Desde la versión de firmware 2023.0, Podman (https://podman.io/) viene instalado en el sistema operativo de PLCnext. Podman cumple la misma función que Docker. Esta implementación garantiza una instalación de Node-RED más sencilla para el usuario final.
 
 > [!IMPORTANT]
 > Debido a los cambios que sufre PLCnext con cada actualización de firmware, estos procedimientos pueden dejar de funcionar en el futuro. Si este es el caso, este documento se actualizará.
