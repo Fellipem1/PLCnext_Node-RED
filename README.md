@@ -168,8 +168,8 @@ date -s “29 FEB 2024 11:25:39”
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/Fellipem1/PLCnext_Node-RED#como-instalar-node-red-en-plcnext-utilizando-podman)
 
 # Como instalar Node-RED en PLCnext utilizando Podman
-[![Licencia](https://img.shields.io/badge/License-MIT-blue.svg)](MIT_LICENSE)
-[![Licencia](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](MIT_LICENSE)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 Desde la versión de firmware 2023.0, Podman (https://podman.io/) viene instalado en el sistema operativo PLCnext. Podman cumple la misma función que Docker. Esta implementación garantiza una instalación de Node-RED más sencilla para el usuario final.
 
