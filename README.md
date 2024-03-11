@@ -193,7 +193,7 @@ Desde la versión de firmware 2023.0, Podman (https://podman.io/) viene instalad
 
 ### 1.1. Acceso a través de un cliente SSH:
 
-- Debe acceder usando ```Putty``` o su cliente ```SSH client``` favorito utilizando la IP de su PLC. Recuerde que la IP predeterminada del PLC es ```192.168.1.10```.
+- Debe acceder usando ```Putty``` o su ```cliente SSH``` favorito utilizando la IP de su PLC. Recuerde que la IP predeterminada del PLC es ```192.168.1.10```.
   
 - Inicie sesión con el nombre de usuario ```admin``` y la contraseña de su PLCnext.
 
