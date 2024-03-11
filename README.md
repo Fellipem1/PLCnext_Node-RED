@@ -1,7 +1,7 @@
 # Multilanguage README
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Fellipem1/PLCnext_Node-RED/tree/main#how-to-install-node-red-in-plcnext-with-podman)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.es.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/Fellipem1/PLCnext_Node-RED#como-instalar-node-red-en-plcnext-utilizando-podman)
 
 # How to install Node-RED in PLCnext with Podman
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](MIT_LICENSE)
@@ -165,7 +165,7 @@ date -s “29 FEB 2024 11:25:39”
 # Multilenguage README
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Fellipem1/PLCnext_Node-RED/tree/main#how-to-install-node-red-in-plcnext-with-podman)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.es.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/Fellipem1/PLCnext_Node-RED#como-instalar-node-red-en-plcnext-utilizando-podman)
 
 # Como instalar Node-RED en PLCnext utilizando Podman
 [![Licencia](https://img.shields.io/badge/License-MIT-blue.svg)](MIT_LICENSE)
