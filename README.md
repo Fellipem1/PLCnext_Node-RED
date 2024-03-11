@@ -163,6 +163,10 @@ date -s “29 FEB 2024 11:25:39”
 ### 4.3. Error 3: Failed, retrying timeout
 
 - This error occurs because the PLCnext does not have internet access. You can check this with the ```ping``` command, for example:
+```
+ping google.cl
+```
+- If it says ```bad address```, you must verify the IP, mask, and Gateway configuration of the PLCnext. You can do this from the web server, Network section.
 
 
 # Español:
@@ -329,8 +333,4 @@ date -s “29 FEB 2024 11:25:39”
 ping google.cl
 ```
 - Si dice ```bad address```, debe verificar la configuración de IP, máscara y Gateway del PLCnext. Puede hacerlo desde el servidor web, sección Network.
-```
-ping google.cl
-```
-- If it says ```bad address```, you must verify the IP, mask, and Gateway configuration of the PLCnext. You can do this from the web server, Network section.
   
