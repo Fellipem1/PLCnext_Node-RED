@@ -1,3 +1,8 @@
+# Multilanguage README
+
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Fellipem1/PLCnext_Node-RED/tree/main#how-to-install-node-red-in-plcnext-with-podman)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.es.md)
+
 # How to install Node-RED in PLCnext with Podman
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](MIT_LICENSE)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
