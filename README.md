@@ -52,8 +52,9 @@ sudo passwd root
 podman run -d -p 1880:1880 --name nodered --restart always docker.io/nodered/node-red:2.2.2
 ```
 
-> [!TIP]
-> I have created Node-RED containers for the PLCnext AXC F 1152 / 2152 that include libraries to work with PLCnext. These containers also include examples of sending alarms, writing and reading using OPC UA. To install any of these examples, use the following commands:
+### 1.4. Installing Examples:
+
+- I have created Node-RED containers for the PLCnext AXC F 1152 / 2152 that include libraries to work with PLCnext. These containers also include examples of sending alarms, writing and reading using OPC UA. To install any of these examples, use the following commands:
 
 - To install the "Alarm Sending" example:
 ```
@@ -65,7 +66,7 @@ podman run -d -p 1880:1880 --name nodered --restart always docker.io/fellipem/no
 podman run -d -p 1880:1880 --name nodered --restart always docker.io/fellipem/noderedpxc:opcua
 ```
 
-### 1.4. Accessing Node-RED:
+### 1.5. Accessing Node-RED:
 
 - Once you have finished, you can start using Node-RED by entering ```IP_PLC:1880``` in your web browser. For example, if your PLC's IP address is 192.168.1.10, you would enter ```192.168.1.10:1880```.
 
