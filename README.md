@@ -1,6 +1,6 @@
 # Multilanguage README
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Fellipem1/PLCnext_Node-RED/tree/main#how-to-install-node-red-in-plcnext-with-podman)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Fellipem1/PLCnext_Node-RED?tab=readme-ov-file#english)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/Fellipem1/PLCnext_Node-RED?tab=readme-ov-file#espa%C3%B1ol)
 
 # English:
