@@ -42,7 +42,7 @@ sudo passwd root
 ```
   
 > [!NOTE]
-> The ```admin``` and ```root``` users are different. Setting a different password for the root user will not affect the "admin" user.
+> The ```admin``` and ```root``` users are different. Setting a different password for the root user will not affect the ```admin``` user.
 
 ### 1.3. Installing Node-RED:
 
@@ -124,13 +124,13 @@ cd /data
 ```
 ### 3.2. Install the library:
 
-- Now you can install any library using npm commands, for example:
+- Now you can install any library using ```npm``` commands, for example:
 ```
 npm i node-red-contrib-iiot-opcua@3.11.1-4
 ```
 ### 3.3. Exit the container and restart Node-RED:
 
-- Once finished, type Exit and restart node-RED with the following commands:
+- Once finished, type ```Exit``` and restart node-RED with the following commands:
 ```
 podman stop nodered
 ```
