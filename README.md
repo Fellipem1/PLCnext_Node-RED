@@ -105,3 +105,58 @@ update-rc.d nodered.sh defaults
 
 > [!NOTE]
 > Remember to always perform these steps using the root user.
+
+## 3. Steps to install libraries in Node-RED:
+
+### 3.1. Start Node-RED and access the container:
+
+- Access as root user and type the following commands:
+  
+```
+podman start nodered
+```
+```
+podman exec -it nodered /bin/bash
+```
+```
+cd /data
+```
+### 3.2. Install the library:
+
+- Now you can install any library using npm commands, for example:
+```
+npm i node-red-contrib-iiot-opcua@3.11.1-4
+```
+### 3.3. Exit the container and restart Node-RED:
+
+- Once finished, type Exit and restart node-RED with the following commands:
+```
+podman stop nodered
+```
+```
+podman start nodered
+```
+
+## 4. Common Errors
+
+### 4.1. Error 1: mkdir no such file or directory
+
+- The following error occurs because the ```admin``` user does not have enough privileges to install Node-RED. To solve the problem, you must log in as the ```root``` user.
+
+### 4.2. Error 2: Certificate Expired
+
+- The following error occurs because the PLCnext has the wrong time and date configured. You can check the time and date with the ```date``` command.
+- To change the time on the PLCnext, use the following command:  
+```
+date -s “29 FEB 2024 11:25:39”
+```
+- Remember to modify the command with the current UTC time and date: https://time.is/es/UTC
+
+### 4.3. Error 3: Failed, retrying timeout
+
+- This error occurs because the PLCnext does not have internet access. You can check this with the ```ping``` command, for example:
+```
+ping google.cl
+```
+- If it says bad ```address```, you must verify the IP, mask, and Gateway configuration of the PLCnext. You can do this from the web server, Network section.
+  
