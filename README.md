@@ -21,8 +21,8 @@ Since firmware 2023.0, Podman (https://podman.io/) has been installed on the PLC
 
 ## Requirements
 
-|Description   | Value      |
-|--------------|------------|
+|Description   | Required      |
+|--------------|---------------|
 |Controller    | AXC F 1152 - AXC F 2152 - AXC F 3152 |
 |Storage       | SD memory 2GB or higher for AXC F 1152 / 2152 |
 |Firmware      | 2023.0 LTS or higher |
@@ -118,7 +118,7 @@ update-rc.d nodered.sh defaults
 
 ### 3.1. Start Node-RED and access the container:
 
-- Access as root user and type the following commands:
+- Access as ```root``` user and type the following commands:
   
 ```
 podman start nodered
@@ -154,6 +154,9 @@ podman start nodered
 ### 4.2. Error 2: Certificate Expired
 
 - The following error occurs because the PLCnext has the wrong time and date configured. You can check the time and date with the ```date``` command.
+```
+date
+```
 - To change the time on the PLCnext, use the following command:  
 ```
 date -s “29 FEB 2024 11:25:39”
@@ -187,8 +190,8 @@ Desde la versión de firmware 2023.0, Podman (https://podman.io/) viene instalad
 
 ## Requisitos
 
-|Descripción          | Valor      |
-|---------------------|------------|
+|Descripción          | Requerido      |
+|---------------------|----------------|
 |Controlador          | AXC F 1152 - AXC F 2152 - AXC F 3152 |
 |Almacenamiento       | Memoria SD de 2GB o superior para AXC F 1152 / 2152 |
 |Firmware             | 2023.0 LTS o superior |
@@ -320,6 +323,9 @@ podman start nodered
 ### 4.2. Error 2: Certificate Expired
 
 - El siguiente error ocurre porque el PLCnext tiene configurada la hora y la fecha incorrectas. Puede verificar la hora y la fecha con el comando ```date```.
+```
+date
+```
 - Para cambiar la hora en el PLCnext, use el siguiente comando:  
 ```
 date -s “29 FEB 2024 11:25:39”
