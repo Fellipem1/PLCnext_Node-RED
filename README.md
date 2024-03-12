@@ -17,7 +17,7 @@ Since firmware 2023.0, Podman (https://podman.io/) has been installed on the PLC
 |Description   | Date       |
 |--------------|------------|
 |Created       | 05-03-2024 |
-|Last modified | 11-03-2024 |
+|Last modified | 12-03-2024 |
 
 ## Requirements
 
@@ -63,12 +63,12 @@ podman run -d -p 1880:1880 --name nodered --restart always docker.io/nodered/nod
 
 - I have created Node-RED containers for the PLCnext AXC F 1152 / 2152 that include libraries to work with PLCnext. These containers also include examples of sending alarms, writing and reading using OPC UA. To install any of these examples, use the following commands:
 
-- To install the "Alarm Sending" example:
+- To install the ```Alarm Sending``` example:
 ```
 podman run -d -p 1880:1880 --name nodered --restart always docker.io/fellipem/noderedpxc:alarms
 ```
 
-- To install the "Reading and writing OPC UA" example:
+- To install the ```Reading and writing OPC UA``` example:
 ```
 podman run -d -p 1880:1880 --name nodered --restart always docker.io/fellipem/noderedpxc:opcua
 ```
@@ -186,7 +186,7 @@ Desde la versión de firmware 2023.0, Podman (https://podman.io/) viene instalad
 |Descripción         | Fecha      |
 |--------------------|------------|
 |Creación            | 05-03-2024 |
-|Ultima Modificación | 11-03-2024 |
+|Ultima Modificación | 12-03-2024 |
 
 ## Requisitos
 
@@ -232,12 +232,11 @@ podman run -d -p 1880:1880 --name nodered --restart always docker.io/nodered/nod
 
 - He creado contenedores de Node-RED para los PLCnext AXC F 1152 / 2152 que incluyen bibliotecas para trabajar con PLCnext. Estos contenedores también incluyen ejemplos de envío de alarmas, escritura y lectura usando OPC UA. Para instalar cualquiera de estos ejemplos, use los siguientes comandos:
 
-- Para instalar el ejemplo "Envío de alarma":
+- Para instalar el ejemplo ```Envío de alarmas```:
 ```
 podman run -d -p 1880:1880 --name nodered --restart always docker.io/fellipem/noderedpxc:alarms
-```
-
-- Para instalar el ejemplo "Lectura y escritura OPC UA":
+```      
+- Para instalar el ejemplo ```Lectura y escritura OPC UA```:
 ```
 podman run -d -p 1880:1880 --name nodered --restart always docker.io/fellipem/noderedpxc:opcua
 ```
